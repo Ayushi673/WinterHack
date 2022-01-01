@@ -1,0 +1,7 @@
+{
+    "app_id": "winterhack-vqtdn",
+    "config_version": 20210101,
+    "name": "WinterHack",
+    "location": "IN-MB",
+    "deployment_model": "LOCAL"
+}
