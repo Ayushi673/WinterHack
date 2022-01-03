@@ -1,7 +1,7 @@
 .App {
   box-sizing: border-box;
   margin: 0;
-  background: white;
+  background: rgb(201, 221, 233);
   height: 100vh;
   overflow-y: scroll;
 }
@@ -9,6 +9,16 @@
 .App-logo {
   height: 6vmin;
   pointer-events: none;
+}
+
+.App-header {
+  background-image: url('https://i2.wp.com/zeeoii.com/wp-content/uploads/2020/07/Nature-Forest-4K-Wallpaper-3840X2160-8-1.jpg?fit=1024%2C576&ssl=1');
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .link-button {
@@ -55,4 +65,23 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

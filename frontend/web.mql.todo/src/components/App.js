@@ -1,11 +1,12 @@
 import { AppBar, Toolbar, Button, Typography } from "@material-ui/core";
 import { WelcomePage } from "./WelcomePage";
-import { TodoItemsPage } from "./TodoItemsPage";
 import { RealmAppProvider, useRealmApp } from "./RealmApp";
 import { ThemeProvider } from "./Theme";
 import { AppName } from "./AppName";
 import { appId } from "../realm.json";
+import Home from './Home';
 import "./App.css";
+
 
 export default function AppWithRealm() {
   return (
@@ -34,10 +35,10 @@ function App() {
             >
               <Typography variant="button">Log Out</Typography>
             </Button>
-          ) : null}
+          ) : null}       
         </Toolbar>
       </AppBar>
-      {currentUser ? <TodoItemsPage /> : <WelcomePage />}
+      {currentUser ? <Home /> : <WelcomePage />}
     </div>
   );
 }

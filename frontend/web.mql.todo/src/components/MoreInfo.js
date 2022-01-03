@@ -1,12 +1,8 @@
-import path from "path";
 import { Container, Link } from "@material-ui/core";
-import { API_TYPE_NAME } from "./AppName";
-import { appUrl } from "../realm.json";
 
 export function MoreInfo() {
   return (
     <>
-      {API_TYPE_NAME === "GraphQL" ? <MoreInfoGraphiQL /> : null}
       <MoreInfoTemplateAndDocs />
     </>
   );
@@ -25,24 +21,10 @@ function MoreInfoItem({ children }) {
 export function MoreInfoTemplateAndDocs() {
   return (
     <MoreInfoItem>
-      <span>Built with the MongoDB Realm {API_TYPE_NAME} Template</span> |{" "}
+      <span>Built with MongoDB Realm, ❤️ and ☕️ by Ayushi</span> |{" "}
       <Link target="_blank" href="https://docs.mongodb.com/realm">
         Docs
       </Link>
-    </MoreInfoItem>
-  );
-}
-
-const graphiqlUrl = new URL('/graphql/explore', appUrl).href
-function MoreInfoGraphiQL() {
-  return (
-    <MoreInfoItem>
-      <span>
-        Try some queries in the{" "}
-        <Link target="_blank" href={graphiqlUrl}>
-          GraphiQL Explorer
-        </Link>
-      </span>
     </MoreInfoItem>
   );
 }

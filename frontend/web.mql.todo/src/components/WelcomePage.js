@@ -55,7 +55,7 @@ export function WelcomePage() {
   };
 
   return (
-    <Container maxWidth="sm" className="main-container">
+    <Container maxWidth="sm"  className="main-container">
       <Card className="auth-card" variant="outlined">
         <form
           className="auth-form"
