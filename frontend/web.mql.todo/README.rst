@@ -7,7 +7,7 @@ The client allows you to:
 
 - Sign up and log in as an Email/Password user
 
-- Create, check off, and delete to-do items
+- Search for the best accomodation in a wide range of locations.
 
 ⚛️ **Create React App**: This project was bootstrapped with `Create React App <https://github.com/facebook/create-react-app>`_.
 

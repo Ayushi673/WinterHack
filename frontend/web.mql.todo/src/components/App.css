@@ -4,6 +4,7 @@
   background: rgb(201, 221, 233);
   height: 100vh;
   overflow-y: scroll;
+  font-family: 'Source Serif Pro', serif;
 }
 
 .App-logo {
@@ -87,6 +88,7 @@
 }
 
 .container {
+  font-family: 'Source Serif Pro', serif;
   columns: 5 auto;
 }
 
@@ -119,6 +121,7 @@
 select {
   border: 0 none;
   background: transparent;
+  font-family: 'Source Serif Pro', serif;
   color: rgb(68, 221, 170);
   font-size: 25px;
   font-weight: bold;
@@ -131,6 +134,7 @@ select {
 .selectCountry {
   overflow: hidden;
   width: 350px;
+  font-family: 'Source Serif Pro', serif;
   -moz-border-radius: 9px 9px 9px 9px;
   -webkit-border-radius: 9px 9px 9px 9px;
   border-radius: 9px 9px 9px 9px;

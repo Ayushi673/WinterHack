@@ -9,15 +9,15 @@ import home2 from "./Images/home2.png";
 import buy from "./Images/buy.png";
 import Modals from './Modals.js';
 
-//backgroundImage: `url(${"https://media.istockphoto.com/photos/beautiful-nature-blurred-light-abstract-background-natural-outdoors-picture-id642063236?k=20&m=642063236&s=612x612&w=0&h=ppdxG7QKIGZKX7t4yd2XrGsLtF8QypneYJjQf_NmoMk="})`
-
 
 const styles = {
   paperContainer: {
+    fontFamily: 'Source Serif Pro',
     maxHeight: 200, overflow: 'auto',
     backgroundImage: `url(${"https://elements-twenty20-photos-0.imgix.net/production/uploads/items/6f3c7ee4-19e6-4f87-a08e-2eb20bf9f38e/source?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1000&s=11a4c4e5d119030d235580895a2b517c"})`
   },
   boxContainer:{
+    fontFamily: 'Source Serif Pro',
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     opacity: 1,
