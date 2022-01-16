@@ -78,6 +78,7 @@ const Hotels = ({name,summary,images,link,host,reviews,price,cancellation_policy
     <Grid container spacing={0}>
         <Grid item xs={12} >
         <h1>{name}</h1>
+        <h3>{address.street}</h3>
         <p>{summary}<br/>
         <a href={link}>Book Now!</a><br/>
         </p>

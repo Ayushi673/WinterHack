@@ -90,6 +90,18 @@
   columns: 5 auto;
 }
 
+.mmm {
+  color: white;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 21px rgb(152, 216, 132),
+      0 0 42px rgb(137, 219, 192),
+      0 0 82px rgb(169, 241, 217),
+      0 0 92px rgb(78, 206, 163),
+      0 0 102px rgb(68, 221, 170),
+      0 0 151px rgb(52, 197, 149);
+}
+
 .hhh {
   color: black;
   text-shadow:
@@ -101,5 +113,27 @@
       0 0 92px rgb(78, 206, 163),
       0 0 102px rgb(68, 221, 170),
       0 0 151px #0fa;
+}
+
+
+select {
+  border: 0 none;
+  background: transparent;
+  color: rgb(68, 221, 170);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center; 
+  padding: 2px 10px;
+  width: 378px;
+  height: 40px;
+}
+
+.selectCountry {
+  overflow: hidden;
+  width: 350px;
+  -moz-border-radius: 9px 9px 9px 9px;
+  -webkit-border-radius: 9px 9px 9px 9px;
+  border-radius: 9px 9px 9px 9px;
+  box-shadow: 1px 1px 11px #330033;
 }
 
