@@ -6,7 +6,7 @@ export const API_TYPE_NAME = "MQL"
 export function AppName() {
   return (
     <Typography className="app-bar-title" component="h1" variant="h5">
-      Travel Buddy
+      Travel Stay Buddy
     </Typography>
   );
 }

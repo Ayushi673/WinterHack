@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Hotels from './Hotels';
+import './App.css';
 
 export default function Search(props) {
 
@@ -36,11 +37,13 @@ export default function Search(props) {
 
     return (
     <div>
-        <h1>Searching for ... {props.item}</h1>
+        <h1 className="hhh">Searching for ... {props.item}</h1>
         {
         filteredHotels.map((index,_id)=>(
             <Hotels key={_id} name={index.name} summary={index.summary} images={index.images.picture_url}
-            link={index.listing_url} host={index.host} reviews={index.reviews}
+            link={index.listing_url} host={index.host} reviews={index.reviews} price={index.price.$numberDecimal} address={index.address} 
+            cancellation_policy={index.cancellation_policy} interaction={index.interaction} transit={index.transit} access={index.access}
+            accommodates={index.accommodates} beds={index.beds} bedrooms={index.bedrooms} amenities={index.amenities}
             />
         ))
         }
